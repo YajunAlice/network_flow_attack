@@ -53,7 +53,7 @@ N69 is a primary input. It is not connected to anything which is indicated as �
 
 N223 is a primary output. It is connected to the ZN pin of U209.
 
-### Note:
+## Note:
 
 • This executable file only supports NanGate 45nm Open Cell Library:
 
@@ -66,9 +66,5 @@ You should use “NangateOpenCellLibrary.lef” and “NangateOpenCellLibrary_ty
 • In the .def file, there should not be any floating wires.
 
 • For now, only the following components are supported: AND, NAND, OR, NOR, INV, AOI, OAI, MUX, XOR, NXOR, BUF, DFF_X1. No other components are allowed.
-
- 
-
- 
 
 Please send your comments to flwave@tamu.edu. We would highly appreciate your comments. 

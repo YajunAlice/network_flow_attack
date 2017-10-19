@@ -1,11 +1,10 @@
 # Texas A&M University
 
 <p align="center">
-  <b>Texas A&M University</b><br>
-  <a href="#">Texas A&M University</a>
+  <b>Maintained by: Lang Feng, Yujie Wang, Jiang Hu and Jeyavijayan (JV) Rajendran</b><br>
+  <b>Contact: flwave@tamu.edu, tjwangyj@hotmail.com, jianghu@tamu.edu and jv.rajendran@tamu.edu</b><br>
 </p>
-Maintained by: Lang Feng, Yujie Wang, Jiang Hu and Jeyavijayan (JV) Rajendran
-Contact: flwave@tamu.edu, tjwangyj@hotmail.com, jianghu@tamu.edu and jv.rajendran@tamu.edu
+
 Split fabrication is a technique to prevent an untrusted foundry from reverse engineering the design. It entails separating the design into front-end-of-line (FEOL) and back-end-of-line (BEOL)  parts and manufacturing them at different foundries. As the untrusted foundry, usually the FEOL foundry, gets only a part of the design, it is expected that they cannot reverse engineer the incomplete FEOL part to obtain the complete design. Our work shows that how an attacker can use the heuristics employed during the physical design process to reverse engineer the missing BEOL part from the FEOL part.
 More details on the attack can be found at:
 Y. Wang, P. Chen, J. Hu, and J. Rajendran, “The cat and mouse in split manufacturing,” ACM/IEEE Design Automation Conference, pp. 1–6, 2016.

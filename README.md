@@ -26,27 +26,45 @@ For example:
 “topmost FEOLlayer” is the layer at which the split occurs.
  
 3.The netlist recovered by the attacker is stored in the output file named "outnetlist."
+
 In the output netlist file, from the left to the right:
+
 “Component Name” indicates the name of the component, which is usually the name of the gate.
+
 “Component Type” indicates the functionality of the component
+
 This followed by the connection between each pin and the corresponding wire(s). The information is separated by colon.
  
 For example:
+
 Component Name+++Component Type+++Input Connection
+
 U186+++AND2_X1+++|A1: N50, Primaryinput|A2: U209, ZN|
+
 N69+++INPUT+++|PrimaryIn_in: NA|
+
 N223+++OUTPUT+++|PrimaryOut_in: U209, ZN|
  
 Explanation:
+
 U186 is an two-input AND gate of type AND2_X1. Its input pin A1 is connected to the wire N50, which is a primary input. The other input pin A2 is connected to the ZN pin of gate U209.
+
 N69 is a primary input. It is not connected to anything which is indicated as “NA.”
+
 N223 is a primary output. It is connected to the ZN pin of U209.
+
 Note:
+
 • This executable file only supports NanGate 45nm Open Cell Library:
+
 http://www.nangate.com/?page_id=2325
+
 You should use “NangateOpenCellLibrary.lef” and “NangateOpenCellLibrary_typical.lib.”
+
 • The .def file should contain complete layout information (i.e. both FEOL and BEOL information). The splitting is performed internally.
+
 • In the .def file, there should not be any floating wires.
+
 • For now, only the following components are supported: AND, NAND, OR, NOR, INV, AOI, OAI, MUX, XOR, NXOR, BUF, DFF_X1. No other components are allowed.
  
 Please send your comments to flwave@tamu.edu. We would highly appreciate your comments. 

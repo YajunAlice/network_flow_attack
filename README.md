@@ -47,7 +47,7 @@ N223+++OUTPUT+++|PrimaryOut_in: U209, ZN|
 
 <b>Explanation:</b><br>
 
-U186 is an two-input AND gate of type AND2_X1. Its input pin A1 is connected to the wire N50, which is a primary input. The other input pin A2 is connected to the ZN pin of gate U209.
+U186 is a two-input AND gate of type AND2_X1. Its input pin A1 is connected to the wire N50, which is a primary input. The other input pin A2 is connected to the ZN pin of gate U209.
 
 N69 is a primary input. It is not connected to anything which is indicated as “NA.”
 

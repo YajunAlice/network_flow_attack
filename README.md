@@ -19,7 +19,7 @@ Y. Wang, P. Chen, J. Hu, and J. Rajendran, “The cat and mouse in split manufac
 
 input ./[the executable filename] [.def file path] [topmost FEOLlayer]
 
-For example:
+<b>For example:</b><br>
 
 \>\>./NetworkFlowAttack c432_45nm_routing_layer5.def 3
 
@@ -35,7 +35,7 @@ In the output netlist file, from the left to the right:
 
 This followed by the connection between each pin and the corresponding wire(s). The information is separated by colon.
  
-For example:
+<b>For example:</b><br>
 
 Component Name+++Component Type+++Input Connection
 

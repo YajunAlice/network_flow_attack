@@ -1,7 +1,7 @@
 # Texas A&M University
 
 <p align="center">
-  <b>Maintained by: Lang Feng, Yujie Wang, Jiang Hu and Jeyavijayan (JV) Rajendran</b><br>
+  <b>Maintained by: Lang Feng, Yujie Wang, Jiang Hu and Jeyavijayan (JV) Rajendran</b>
   <b>Contact: flwave@tamu.edu, tjwangyj@hotmail.com, jianghu@tamu.edu and jv.rajendran@tamu.edu</b><br>
 </p>
 

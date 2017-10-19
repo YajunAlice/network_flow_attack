@@ -12,7 +12,7 @@ Executing the code:
 2.To run the script in the command line, use the following command:
 input ./[the executable filename] [.def file path] [topmost FEOLlayer]
 For example:
->>./NetworkFlowAttack c432_45nm_routing_layer5.def 3
+\>\>./NetworkFlowAttack c432_45nm_routing_layer5.def 3
 “topmost FEOLlayer” is the layer at which the split occurs.
  
 3.The netlist recovered by the attacker is stored in the output file named "outnetlist."

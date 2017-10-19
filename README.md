@@ -33,7 +33,7 @@ In the output netlist file, from the left to the right:
 
 “Component Type” indicates the functionality of the component
 
-This followed by the connection between each pin and the corresponding wire(s). The information is separated by colon.
+This is followed by the connection between each pin and the corresponding wire(s). The information is separated by a colon.
  
 <b>For example:</b><br>
 

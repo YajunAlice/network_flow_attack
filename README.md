@@ -1,5 +1,6 @@
+# <p align="center">
 # Texas A&M University
-
+</p>
 <p align="center">
   <b>Maintained by: Lang Feng, Yujie Wang, Jiang Hu and Jeyavijayan (JV) Rajendran</b><br>
   <b>Contact: flwave@tamu.edu, tjwangyj@hotmail.com, jianghu@tamu.edu and jv.rajendran@tamu.edu</b><br>

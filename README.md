@@ -66,7 +66,7 @@ You should use “NangateOpenCellLibrary.lef” and “NangateOpenCellLibrary_ty
 • In the .def file, there should not be any floating wires.
 
 • For now, only the following components are supported: AND, NAND, OR, NOR, INV, AOI, OAI, MUX, XOR, NXOR, BUF, DFF_X1. No other components are allowed.
-
-
-
+//
+//
+//
 Please send your comments to flwave@tamu.edu. We would highly appreciate your comments. 

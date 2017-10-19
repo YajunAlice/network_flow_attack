@@ -6,7 +6,9 @@
 </p>
 
 Split fabrication is a technique to prevent an untrusted foundry from reverse engineering the design. It entails separating the design into front-end-of-line (FEOL) and back-end-of-line (BEOL)  parts and manufacturing them at different foundries. As the untrusted foundry, usually the FEOL foundry, gets only a part of the design, it is expected that they cannot reverse engineer the incomplete FEOL part to obtain the complete design. Our work shows that how an attacker can use the heuristics employed during the physical design process to reverse engineer the missing BEOL part from the FEOL part.
+
 More details on the attack can be found at:
+
 Y. Wang, P. Chen, J. Hu, and J. Rajendran, “The cat and mouse in split manufacturing,” ACM/IEEE Design Automation Conference, pp. 1–6, 2016.
  
 Executing the code:
@@ -14,9 +16,13 @@ Executing the code:
 1.Put .lib and .lef files in the same folder as the executable file (named “main”)
  
 2.To run the script in the command line, use the following command:
+
 input ./[the executable filename] [.def file path] [topmost FEOLlayer]
+
 For example:
+
 \>\>./NetworkFlowAttack c432_45nm_routing_layer5.def 3
+
 “topmost FEOLlayer” is the layer at which the split occurs.
  
 3.The netlist recovered by the attacker is stored in the output file named "outnetlist."

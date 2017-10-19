@@ -1,7 +1,7 @@
 # Texas A&M University
 
 <p align="center">
-  <b>Maintained by: Lang Feng, Yujie Wang, Jiang Hu and Jeyavijayan (JV) Rajendran</b>
+  <b>Maintained by: Lang Feng, Yujie Wang, Jiang Hu and Jeyavijayan (JV) Rajendran</b><br>
   <b>Contact: flwave@tamu.edu, tjwangyj@hotmail.com, jianghu@tamu.edu and jv.rajendran@tamu.edu</b><br>
 </p>
 
@@ -44,8 +44,8 @@ U186+++AND2_X1+++|A1: N50, Primaryinput|A2: U209, ZN|
 N69+++INPUT+++|PrimaryIn_in: NA|
 
 N223+++OUTPUT+++|PrimaryOut_in: U209, ZN|
- 
-Explanation:
+
+<b>Explanation:</b><br>
 
 U186 is an two-input AND gate of type AND2_X1. Its input pin A1 is connected to the wire N50, which is a primary input. The other input pin A2 is connected to the ZN pin of gate U209.
 

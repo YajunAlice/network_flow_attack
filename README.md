@@ -11,11 +11,11 @@ More details on the attack can be found at:
 
 Y. Wang, P. Chen, J. Hu, and J. Rajendran, “The cat and mouse in split manufacturing,” ACM/IEEE Design Automation Conference, pp. 1–6, 2016.
  
-Executing the code:
+## Executing the code:
  
-1.Put .lib and .lef files in the same folder as the executable file (named “main”)
+### 1.Put .lib and .lef files in the same folder as the executable file (named “main”)
  
-2.To run the script in the command line, use the following command:
+### 2.To run the script in the command line, use the following command:
 
 input ./[the executable filename] [.def file path] [topmost FEOLlayer]
 
@@ -25,7 +25,7 @@ For example:
 
 “topmost FEOLlayer” is the layer at which the split occurs.
  
-3.The netlist recovered by the attacker is stored in the output file named "outnetlist."
+### 3.The netlist recovered by the attacker is stored in the output file named "outnetlist."
 
 In the output netlist file, from the left to the right:
 
@@ -53,7 +53,7 @@ N69 is a primary input. It is not connected to anything which is indicated as �
 
 N223 is a primary output. It is connected to the ZN pin of U209.
 
-Note:
+### Note:
 
 • This executable file only supports NanGate 45nm Open Cell Library:
 

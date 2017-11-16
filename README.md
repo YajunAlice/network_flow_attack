@@ -24,7 +24,7 @@ input ./[the executable filename] [.def file path] [topmost FEOLlayer]
 
 <b>For example:</b><br>
 
-\>\>./NetworkFlowAttack c432_45nm_routing_layer5.def 3
+\>\>./main c432_45nm_routing_layer5.def 3
 
 “topmost FEOLlayer” is the layer at which the split occurs.
  

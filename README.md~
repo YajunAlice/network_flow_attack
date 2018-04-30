@@ -5,8 +5,9 @@
   <b>Contact: flwave@tamu.edu, tjwangyj@hotmail.com, jianghu@tamu.edu and jv.rajendran@tamu.edu</b><br>
 </p>
 
-+++++11/04/2017: Fixed the bug which makes the output netlist the same as the original netlist
-+++++11/16/2017: version 1.3: 1. Fixed the bug which will cause crash in some cases; 2. Modified the format of output netlist file for 
++++++11/04/2017: Fixed the bug which makes the output netlist the same as the original netlist.
++++++11/16/2017: version 1.3: 1. Fixed the bug which will cause crash in some cases; 2. Modified the format of output netlist file for easier parsing.
++++++04/30/2018: Fixed the bug that the program cannot recognize the primary input/output at metal 10.
 
 Split fabrication is a technique to prevent an untrusted foundry from reverse engineering the design. It entails separating the design into front-end-of-line (FEOL) and back-end-of-line (BEOL)  parts and manufacturing them at different foundries. As the untrusted foundry, usually the FEOL foundry, gets only a part of the design, it is expected that they cannot reverse engineer the incomplete FEOL part to obtain the complete design. Our work shows that how an attacker can use the heuristics employed during the physical design process to reverse engineer the missing BEOL part from the FEOL part.
 
@@ -24,7 +25,7 @@ input ./[the executable filename] [.def file path] [topmost FEOLlayer]
 
 <b>For example:</b><br>
 
-\>\>./NetworkFlowAttack c432_45nm_routing_layer5.def 3
+\>\>./main c432_45nm_routing_layer5.def 3
 
 “topmost FEOLlayer” is the layer at which the split occurs.
  
